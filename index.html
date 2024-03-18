@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel To Chioggia</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="introchioggia.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+	<i class="fa fa-home w3-xxlarge"></i>
+	<p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	<i class="fa fa-university w3-xxlarge"></i>
+	<p>LANDMARKS</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	<i class="fa fa-eye w3-xxlarge"></i>
+	<p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	<i class="fa fa-envelope w3-xxlarge"></i>
+	<p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+	<a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+	<a href="#about" class="w3-bar-item w3-button" style="width:25% !important">LANDMARKS</a>
+	<a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+	<a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+	<h1 class="w3-jumbo"><span class="w3-hide-small">TRAVEL TO</span> CHIOGGIA</h1>
+	<p>Little Venice</p>
+	<img src="introchioggia.png" alt="chioggia" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-center w3-text-sand w3-padding-64" id="about">
+	<h2 class="w3-text-light-grey">CHIOGGIA</h2>
+	<hr style="width:200px; margin:auto" class="w3-opacity">
+	<p>Chioggia, a charming coastal town in Veneto, is a hidden gem often likened to nearby Venice. 
+	With its picturesque canals, pastel-colored houses reflecting on the water, and stone bridges, it offers an enchanting and authentic atmosphere. 
+	The fish market is a lively spectacle of boats laden with fresh seafood and colorful stalls. 
+	Sandy beaches along the coast invite relaxation and sunset strolls, while Isola della Grazia provides a tranquil escape from the city's hustle and bustle. 
+	With its delightful cuisine and timeless beauty, Chioggia promises an unforgettable experience.
+	</p>
+	
+	<img src="mappa.png"onclick="onClick(this)" class="w3-hover-opacity w3-image" width="50%" height="33%">
+	
+	<div class="w3-container">
+	<h2 class="w3-text-light-grey">San Felice Fort</h2>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<img src="fort_san_felice.jpg" class="w3-round w3-image" width="500" height="333">
+	</div>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<p>Built around 1385 on a small island at the entrance of the lagoon, Fort San Felice in Sottomarina di Chioggia was strategically important for safeguarding the lagoon, especially after the War of Chioggia.<br>
+	Over the years, it underwent several reconstructions, resulting in its current star-shaped structure.
+	Offering a 360-degree view of the lagoon and the sea, it boasts remarkable architectural features such as the Istrian stone portal designed by Andrea Tirali in the early 1700s.
+	Abandoned for a long time, it gained attention through FAI's surveys to become one of the top 10 places to save in Italy in 2016.
+	Since then, guided tours organized by the Fort San Felice Committee have made it accessible to visitors, offering stunning natural views and unique sunset panoramas, ideal for walking or cycling around the fort.
+	</p>
+	</div>
+	</div>
+	<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+  	<div class="w3-third w3-section">
+    	<span class="w3-xlarge">30€</span><br>
+    	Round Trip
+  	</div>
+  	<div class="w3-third w3-section">
+    	<span class="w3-xlarge">8:00 AM</span><br>
+    	Departure
+  	</div>
+  	<div class="w3-third w3-section">
+    	<span class="w3-xlarge">12:30 PM</span><br>
+    	Return
+  	</div>
+	</div>
+	<hr style="width:200px; margin:auto" class="w3-opacity">
+	
+	<div class="w3-container">
+	<h2 class="w3-text-light-grey">Cathedral Square</h2>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<p>The Piazza del Duomo in Chioggia, Italy, is the vibrant center of this historic city in the Veneto region.<br>
+	Surrounded by centuries-old buildings, it features the stunning Cathedral of Santa Maria Assunta at its core, showcasing exquisite Gothic architecture and sacred artworks.
+	The square bustles with activity, especially during the weekly market offering local produce and traditional goods.
+	Cafes, restaurants, and shops line its sides, inviting residents and visitors to experience Chioggia's daily life.
+	Hosting religious festivals and cultural events year-round, the square exudes a charming atmosphere and historical allure, making it a must-visit destination for exploring Chioggia.
+	</p>
+	</div>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<img src="duomo.png" class="w3-round w3-image" width="500" height="333">
+	</div>
+	</div>
+		<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+  	<div class="w3-half w3-section">
+    	<span class="w3-xlarge">1:15 PM</span><br>
+    	Arrival
+  	</div>
+  	<div class="w3-half w3-section">
+    	<span class="w3-xlarge">1:45 PM</span><br>
+    	Departure
+  	</div>
+	</div>
+	<hr style="width:200px; margin:auto" class="w3-opacity">
+	
+	<div class="w3-container">
+	<h2 class="w3-text-light-grey">Fish Market</h2>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<img src="mercpesce.png" class="w3-round w3-image" width="500" height="333">
+	</div>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<p>Chioggia, known for its rich fishing heritage, offers visitors a unique experience at its Fish Market.<br>
+	This vibrant hub showcases a diverse array of freshly caught fish and local seafood delicacies, reflecting the region's maritime tradition. 
+	Along the lively atmosphere, visitors can observe the lively exchanges between fishermen and buyers, adding an authentic touch to their visit. 
+	The market's charm lies not only in its abundant offerings but also in the opportunity it provides to witness the age-old traditions and skills of the local fishing community. 
+	A visit here promises a memorable immersion into Chioggia's maritime culture.
+	</p>
+	</div>
+	</div>
+		<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+  	<div class="w3-half w3-section">
+    	<span class="w3-xlarge">1:55 PM</span><br>
+    	Arrival
+  	</div>
+  	<div class="w3-half w3-section">
+    	<span class="w3-xlarge">2:20 PM</span><br>
+    	Departure
+  	</div>
+	</div>
+	<hr style="width:200px; margin:auto" class="w3-opacity">
+	
+	
+	<div class="w3-container">
+	<h2 class="w3-text-light-grey">Vena Canal</h2>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<p>Often likened to Venice's Grand Canal, Chioggia's Vena Canal stands as one of the city's principal aquatic arteries. 
+	Its tranquil waters offer beautiful views of colorful houses adorning its banks, evoking a timeless charisma. 
+	Embarking on a boat excursion along its path allows visitors to immerse themselves in Chioggia's rich maritime heritage while uncovering hidden gems along the way. 
+	Whether admiring the architectural wonders or simply admiring the serene ambiance, a journey along the Vena Canal promises an unforgettable experience, uncovering the essence of this gem.
+	</p>
+	</div>
+	<div class="w3-col m6 w3-center w3-padding-large">
+	<img src="vena.png" class="w3-round w3-image" width="500" height="333">
+	</div>
+	</div>
+		<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+  	<div class="w3-half w3-section">
+    	<span class="w3-xlarge">2:30 PM</span><br>
+    	Arrival
+  	</div>
+  	<div class="w3-half w3-section">
+    	<span class="w3-xlarge">3:10 PM</span><br>
+    	Departure
+  	</div>
+	</div>
+	<hr style="width:200px; margin:auto" class="w3-opacity">
+	
+  <!-- End About Section -->
+  </div>
+ 
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-center w3-content" id="photos">
+	<h2 class="w3-text-light-grey">The Photos</h2>
+	<hr style="width:200px; margin:auto" class="w3-opacity">
+
+	<!-- Grid for photos -->
+	<div class="w3-row-padding" style="margin:0 -16px">
+  	<div class="w3-half">
+    	<img src="chioggia1.jpg" style="width:100%;cursor:pointer"onclick="onClick(this)" class="w3-hover-opacity">
+    	<img src="chioggia2.jpg" style="width:100%;cursor:pointer"onclick="onClick(this)" class="w3-hover-opacity">
+    	<img src="duomo.png" style="width:100%;cursor:pointer"onclick="onClick(this)" class="w3-hover-opacity">
+		<img src="chioggia3.jpg" style="width:100%;cursor:pointer"onclick="onClick(this)" class="w3-hover-opacity">
+  	</div>
+
+  	<div class="w3-half">
+    	<img src="fort_san_felice.jpg" style="width:100%;cursor:pointer"onclick="onClick(this)" class="w3-hover-opacity">
+    	<img src="vena.png" style="width:100%;cursor:pointer"onclick="onClick(this)" class="w3-hover-opacity">
+    	<img src="mercpesce.png" style="width:100%;cursor:pointer"onclick="onClick(this)" class="w3-hover-opacity">
+  	</div>
+	<!-- End photo grid -->
+	</div>
+	<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+		<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+		<div class="w3-modal-content w3-animate-zoom">
+			<img id="img01" style="width:100%">
+		</div>
+	</div>
+  <!-- End Portfolio Section -->
+  </div>
+  
+  
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-center w3-content w3-text-sand"id="contact">
+	<h2 class="w3-text-light-grey">Contact Us</h2>
+	<hr style="width:200px; margin:auto" class="w3-opacity">
+  <!-- Grid for pricing tables -->
+  <div class="w3-content w3-center w3-text-sand w3-padding-64" >
+	<h3 class="w3-padding-16 w3-text-light-grey">To Sum Up</h3>
+	<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+  	<div class="w3-quarter w3-section">
+    	<span class="w3-xlarge">40€</span><br>
+    	Per Person
+  	</div>
+  	<div class="w3-quarter w3-section">
+    	<span class="w3-xlarge">~7h</span><br>
+    	Tour Duration
+  	</div>
+  	<div class="w3-quarter w3-section">
+    	<span class="w3-xlarge">EASY</span><br>
+    	Walk Difficulty
+  	</div>
+  	<div class="w3-quarter w3-section">
+    	<span class="w3-xlarge">INCLUDED</span><br>
+    	Local Tour Guide
+  	</div>
+	</div>
+  </div>
+  
+	<div class="w3-section">
+  	<p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chioggia, IT</p>
+  	<p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +39 041 553 4811</p>
+  	<p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: traveltochioggia@instmail.uk</p>
+	</div><br>
+  <!-- End Contact Section -->
+  </div>
+ 
+	<!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+	<a href="https://www.facebook.com/comunedichioggia/?locale=it_IT" target="_blank" class="w3-hover-text-green"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+	<a href="https://www.instagram.com/visitchioggiaofficial/" target="_blank" class="w3-hover-text-green"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+	<a href="https://twitter.com/Comune_Chioggia" target="_blank" class="w3-hover-text-green"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+	<p class="w3-large">Powered by Francesco Bazaj - Mattia Pavarin - Patrick Pacurar - Diego Renesto</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+	<script>
+	function onClick(element) {
+	  document.getElementById("img01").src = element.src;
+	  document.getElementById("modal01").style.display = "block";
+	}
+	</script>
+
+</body>
+</html>
+
+
